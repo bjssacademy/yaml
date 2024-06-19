@@ -1,6 +1,6 @@
 # YAML
 
-
+> Validate you have valid YAML using https://codebeautify.org/yaml-parser-online
 
 ## What is YAML?
 
