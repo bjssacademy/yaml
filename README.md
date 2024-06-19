@@ -18,15 +18,57 @@
 
 ### Scalars
 
-Basic data types like strings, integers, and floats.
+Scalars in YAML represent the simplest data types, such as strings, numbers, and booleans. They form the basic building blocks for more complex YAML structures.
 
-Example:
+Examples:
 
 ```yaml
 string: "Hello, World!"
 integer: 25
 float: 3.14
 boolean: true
+```
+
+#### Plain Strings
+
+```yaml
+greeting: Hello, World!
+```
+
+#### Quoted Strings
+
+```yaml
+path: "C:\\Users\\JohnDoe"
+message: 'Don''t forget to escape single quotes'
+```
+
+#### Multi-line Strings
+
+```yaml
+description: |
+  This is a multi-line string
+  that maintains line breaks.
+
+summary: >
+  This is a multi-line string
+  that folds line breaks into spaces.
+  ```
+
+#### Numbers and Booleans
+
+```yaml
+integer: 25
+float: 3.14159
+is_admin: true
+is_guest: no
+```
+
+#### Null Values
+
+```yaml
+first_name: John
+middle_name: ~
+last_name: Doe
 ```
 
 ### Key-Value Pairs
